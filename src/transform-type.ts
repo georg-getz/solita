@@ -36,7 +36,7 @@ export function adaptIdl(idl: Idl) {
 
   if (idl.types != null) {
     for (let i = 0; i < idl.types.length; i++) {
-      console.log("current type is: " + idl.types[i])
+      console.log("current typeee is: " + idl.types[i].name)
       idl.types[i] = transformDefinition(idl.types[i])
     }
   }

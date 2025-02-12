@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/solita",
+  "name": "@georg-getz/solita",
   "version": "0.20.1",
   "description": "Generates SDK API from solana contract IDL.",
   "main": "dist/src/solita.js",
@@ -27,7 +27,7 @@
     "doc:update": "./sh/update-docs",
     "doctoc": "doctoc README.md"
   },
-  "repository": "git@github.com:metaplex-foundation/solita.git",
+  "repository": "git@github.com:georg-getz/solita.git",
   "author": "Thorsten Lorenz <thlorenz@gmx.de>",
   "license": "Apache-2.0",
   "private": false,
